@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #e8eef2;
+}
+
+.index {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+}
+
+main {
+    text-align: center;
+    width: 40%;
+    height: 100vh;
+    background-color: #e8eef2;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+main input {
+    width: 60%;
+    height: 38px;
+    border-radius: 20px;
+    border-style: none;
+    margin-top: 20px;
+    border: 1px solid #083d77;
+    outline: 0;
+    padding-left: 10px;
+}
+
+main h1 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 130px;
+    font-size: 270%;
+    color: #680880;
+}
+
+main h2 {
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 1.6em;
+    color: #2681c6;
+}
+
+.btnAcessar {
+    height: 60px;
+    max-width: 170px;
+    border-radius: 30px;
+    background-color: #2681c6;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.btnAcessar:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+main button {
+    margin-top: 20px;
+    border: none;
+    background: none;
+}
+
+main button:hover {
+    color: #19e295;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.background {
+    border-left: 7px solid #2681c6;
+    background-color: #393e46;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background img {
+    width: 75%;
+    max-width: 450px;
+    display: inline-block;
+    border-radius: 5px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    .index {
+        flex-wrap: wrap;
+    }
+    body {
+        background-color: #e8eef2;
+    }
+    .index {
+        background-color: #e8eef2;
+    }
+}

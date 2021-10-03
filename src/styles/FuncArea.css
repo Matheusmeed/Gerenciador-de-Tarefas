@@ -1,0 +1,22 @@
+.divAdd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.sair {
+    color: red;
+}
+
+.btnAddAtividade {
+    background: #2681c6;
+    color: white;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 2em;
+}

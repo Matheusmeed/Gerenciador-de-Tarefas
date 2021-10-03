@@ -1,0 +1,35 @@
+#fundo {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000096;
+}
+
+#modalCadastrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 360px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(27, 71, 153);
+}
+
+#cadastrar {
+    margin-top: 30px;
+    background-color: #2681c6;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#cadastrar:hover {
+    cursor: pointer;
+}

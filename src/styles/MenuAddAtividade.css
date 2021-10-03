@@ -1,0 +1,43 @@
+.menuAddAtividade {
+    background-color: #ffffff;
+    width: 600px;
+    height: 430px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #00000077;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.menuAddAtividade h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.escolherStatus label {
+    margin-right: 10px;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.lastBtns {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.lastBtns button {
+    margin: 10px;
+    cursor: pointer;
+    background-color: #2681c6;
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.219);
+}

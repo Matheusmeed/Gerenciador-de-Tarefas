@@ -1,0 +1,105 @@
+.mainAdm {
+    background-color: #0b004b;
+}
+body {
+    background-color: #0b004b;
+}
+
+.sair {
+    color: red;
+    cursor: pointer;
+    border: none;
+    background-color: #80008000;
+}
+
+.pd {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.status {
+    width: 10%;
+}
+.title {
+    width: 20%;
+}
+.desc {
+    width: 50%;
+}
+.user {
+    width: 20%;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 3px;
+    background: #2681c6;
+    color: white;
+    padding: 8px;
+}
+
+.listaAtividades {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: white;
+    box-shadow: 0px 4px 1px #2681c6;
+}
+
+.Pendente {
+    background-color: orange;
+    color: white;
+}
+.andamento {
+    background-color: blue;
+    color: white;
+}
+.Finalizada {
+    background-color: #00e400;
+    color: white;
+}
+.Cancelada {
+    background-color: red;
+    color: white;
+}
+
+.filterHeader {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.filter {
+    background-color: #2681c6;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.filter input,
+label:hover {
+    cursor: pointer;
+}
+
+#btnBuscar:hover {
+    cursor: pointer;
+}
+
+.containerFuncionalidades {
+    display: flex;
+}
+
+.fundo {
+    background-color: #06003dd2;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #393e46;
+}
+
+img {
+    margin-top: -170px;
+    margin-bottom: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #2681c6;
+    margin: 20px;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition: 0.5s;
+}

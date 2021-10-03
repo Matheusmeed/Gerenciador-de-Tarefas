@@ -1,0 +1,13 @@
+.atividade {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 1px;
+    background-color: #eeeeee;
+    border-bottom: 3px solid #ffffff;
+}
+
+.atividade:hover {
+    background-color: #b2bee6;
+    cursor: pointer;
+}
